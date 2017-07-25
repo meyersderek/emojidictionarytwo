@@ -12,6 +12,7 @@
 		D258673D1F22D7B20048FAAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D258673B1F22D7B20048FAAF /* Main.storyboard */; };
 		D258673F1F22D7B20048FAAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D258673E1F22D7B20048FAAF /* Assets.xcassets */; };
 		D25867421F22D7B20048FAAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25867401F22D7B20048FAAF /* LaunchScreen.storyboard */; };
+		D2FBF4881F27E88B00E496CA /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FBF4871F27E88B00E496CA /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D258673E1F22D7B20048FAAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D25867411F22D7B20048FAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D25867431F22D7B20048FAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2FBF4871F27E88B00E496CA /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		D258672B1F22D7B20048FAAF = {
 			isa = PBXGroup;
 			children = (
+				D2FBF4871F27E88B00E496CA /* DefinitionViewController.swift */,
 				D25867361F22D7B20048FAAF /* Emoji Dictionary Two */,
 				D25867351F22D7B20048FAAF /* Products */,
 			);
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D258673A1F22D7B20048FAAF /* ViewController.swift in Sources */,
+				D2FBF4881F27E88B00E496CA /* DefinitionViewController.swift in Sources */,
 				D25867381F22D7B20048FAAF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +305,7 @@
 				D25867481F22D7B20048FAAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
