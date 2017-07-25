@@ -12,7 +12,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     @IBOutlet weak var tableView: UITableView!
     
-    var emojis = ["😬", "💩", "☠️", "👏🏻", "🙈", "🦐", "🌪"]
+    var emojis = ["😬", "💩", "☠️", "👏🏻", "🙈", "🦐", "🌪"] // This array is passed in a func below.
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,13 +25,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return emojis.count // Returns the count from the array
+        return emojis.count // Returns the count from the array.
         }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         print(indexPath.row)
         let cell = UITableViewCell()
-        cell.textLabel?.text = emojis[indexPath.row] // Passes in whatever is at position 0 from arry to display as the text in postion, based off array count.
+        cell.textLabel?.text = emojis[indexPath.row] // Passes in whatever is at position 0 from array to display as the text in postion, based off array count.
         return cell
     }
     
